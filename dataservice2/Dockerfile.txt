@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/coinService.jar coinService.jar
+EXPOSE 8092
+ENTRYPOINT ["java", "-Dspring.profiles.active=DI","-Dproperties.execution_enviorment=DevInte","-jar","coinService.jar"]

@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/eurekaService.jar eurekaService.jar
+EXPOSE 8093
+ENTRYPOINT ["java", "-jar","eurekaService.jar"]
