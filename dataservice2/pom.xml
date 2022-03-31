@@ -19,7 +19,7 @@
         <junit.version>4.12</junit.version>
         <powermock.version>1.6.1</powermock.version>
         <spring-boot-maven-plugin.version>2.0.1.RELEASE</spring-boot-maven-plugin.version>
-        <spring-boot.version>2.0.1.RELEASE</spring-boot.version>
+        <spring-boot.version>2.5.12</spring-boot.version>
         <javax.inject.version>1</javax.inject.version>
         <maven-war-plugin.version>2.1.1</maven-war-plugin.version>
         <springboot-job.finalName>coinService</springboot-job.finalName>
